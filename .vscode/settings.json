@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "value_t.h": "c",
+        "process.h": "c"
+    }
+}
