@@ -37,7 +37,7 @@ typedef struct RAW_DATA { //MSB d7
 
 typedef union INT { //공용체
     raw_data_t _raw;
-    int ch; //8bit - 1byte
+    int ch; //32bit - 4byte
 } int_t;
 
 void bin_show(int_t val) {
